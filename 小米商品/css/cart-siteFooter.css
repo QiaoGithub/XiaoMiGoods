@@ -1,0 +1,153 @@
+.site-footer{
+    width:1519px;
+    height:572px;
+    background-color: #fff;
+    margin-top:50px;
+}
+.footer-content{
+    width:1220px;
+    height:80px;
+    margin-left:145px;
+}
+.footer-list{
+    list-style: none;
+    line-height: 50px;
+    border-bottom: 1px dashed lightgrey;
+    height:100px;
+}
+.footer-item{
+    float: left;
+    margin-top:20px;
+    margin-left:50px;
+    padding: 0 50px 0 0;
+    border-right: 1px dashed lightgrey;
+    color:#616161;
+}
+.footer-item i{
+    font-size: 30px;
+    margin-right:10px;
+}
+.footer-item:hover{
+    color:orangered;
+    cursor: pointer;
+}
+.footer-link{
+    width:1220px;
+    height:150px;
+    margin-left:145px;
+    margin-top:50px;
+}
+.col-links{
+    width:160px;
+    height:112px;
+    float: left;
+    color: #333;
+}
+.col-links dt{
+    margin: -1px 0 26px;
+    font-size: 14px;
+    line-height: 1.25;
+    color: #424242;
+}
+.col-links dd{
+    margin: 10px 0 0;
+    font-size: 12px;
+}
+.col-links dd:hover{
+    color:orangered;
+    cursor: pointer;
+}
+.footer-contact{
+    width:252px;
+    height:112px;
+    margin-left:980px;
+    text-align: center;
+}
+.contact-phone{
+    color:orangered;
+    font-size: 20px;
+}
+.contact-know{
+    font-size: 12px;
+    color:#616161;
+    text-align: center;
+    width:150px;
+    margin-left:50px;
+}
+.footer-contact a{
+    color:orangered;
+    text-decoration: none;
+    font-size: 12px;
+    display: inline-block;
+    width:90px;
+    height:30px;
+    line-height: 30px;
+    margin-top: 10px;
+    transition: all .5s;
+    border:1px solid red;
+}
+.footer-contact a:hover{
+    color:white;
+    background-color: orangered;
+}
+.site-infro{
+    width:1519px;
+    height:200px;
+    padding: 20px 0 0 0 ;
+    background-color:#fafafa;
+    position: relative;
+}
+.infro-logo{
+    width:57px;
+    height:57px;
+    margin-left:145px;
+    display: inline-block;
+}
+.logo-size{
+    position: absolute;
+    top:12px;
+    left:210px;
+}
+.logo-size a{
+    color: #757575;
+    font-size: 12px;
+    text-decoration: none;
+}
+.logo-size a:hover{
+    color:orangered;
+}
+.logo-size span{
+    color: #757575;
+}
+.logo-complain{
+    position: absolute;
+    left:210px;
+    top:30px;
+    width:688px;
+    height:52px;
+    font-size: 12px;
+    color:#757575;
+}
+.logo-complain a{
+    text-decoration: none;
+    color:#757575;
+}
+.logo-complain a:hover{
+    color:orangered;
+}
+.footer-img{
+    position: absolute;
+    right:160px;
+    top:15px;
+}
+.footer-img img{
+    width:85px;
+    height:28px;
+}
+.infro-last{
+    width:267px;
+    height:19px;
+    margin:50px 0 0 600px;
+    font-size: 20px;
+    color:rgba(0,0,0,.5)
+}

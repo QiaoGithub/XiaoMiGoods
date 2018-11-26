@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的购物车</title>
+    <link rel="stylesheet" href="Font-Awesome-3.2.1/Font-Awesome-3.2.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/cart-siteHeader.css">
+    <link rel="stylesheet" href="css/cart-pageMain.css">
+    <link rel="stylesheet" href="css/cart-siteFooter.css">
+    <link rel="stylesheet" href="css/cart-CSS.css">
+</head>
+<body>
+<div class="site-header">
+    <div class="container">
+        <div class="header-logo">
+            <a href=""><img id="logo-mi" src="./img/xiaomi-logo.png" alt=""><img id="logo-house" src="./img/xiaomi-house.png" alt="">
+            </a>
+        </div>
+        <div class="header-myCart"><h2>我的购物车</h2></div>
+        <div class="topbar-info"><a href="">登录</a><span>|</span><a href="">注册</a></div>
+    </div>
+</div>
+<div class="page-main">
+    <div class="container">
+        <div class="cart-empty None">
+            <img src="img/cart-empty.png" alt="">
+            <div class="empty-info">
+                <h2>您的购物车还是空的！</h2>
+                <p>登录后将显示您之前加入的商品</p>
+                <a class="empty-info-log" href="">立即登录</a>
+                <a class="empty-info-buy" href="">马上去购物</a>
+            </div>
+        </div>
+        <div class="cart-goods">
+            <table     style="display: inline-block;line-height: 50px;background-color: white" id="table"   border="0" cellspacing="0" cellpadding="0" width="100%">
+                <thead >
+                <tr  >
+                    <th  style="width: 80px">
+                        <input type="checkbox" name="praiseAll" class="J_select_all" />全选
+                    </th>
+
+                    <th style="width: 100px">
+                        图片
+                    </th>
+                    <th style="width:280px">
+                        商品名称
+                    </th>
+                    <th style="width: 159px">
+
+                        单价
+                    </th>
+                    <th style="width: 150px">
+                        数量
+                    </th>
+                    <th width="201px">
+                        小计
+                    </th>
+                    <th style="width: 80px">
+                        操作
+                    </th>
+                </tr>
+                </thead>
+                <tbody id="tbody">
+                    <!--<tr>-->
+                       <!--<td>-->
+                           <!--<input type="checkbox" class="ck"  />-->
+                       <!--</td>-->
+                       <!--<td>-->
+                           <!--<img src="./img/mi-computer-one.jpg" alt=""/>-->
+                       <!--</td>-->
+                       <!--<td class="practice">-->
+                           <!--酷黑，棒棒棒棒-->
+                       <!--</td>-->
+                       <!--<td>-->
+                           <!--<span class="price">131</span>-->
+                       <!--</td>-->
+                       <!--<td>-->
+                           <!--<button class="down">-</button><input class="txt" type="text" value="2" /><button class="up">+</button>-->
+                       <!--</td>-->
+                       <!--<td>-->
+                           <!--<span class="count">0</span>-->
+                       <!--</td>-->
+                       <!--<td>-->
+                           <!--<button class="del">删除</button>-->
+                       <!--</td>-->
+                   <!--</tr>-->
+                </tbody>
+            </table>
+        </div>
+        <div class="total">
+            <div class="total-left"><a href="">继续购物</a>
+                <span class="total-shop">已选择 <span id="selected-num" style="color:orangered">0</span>件商品</span>
+            </div>
+            <div class="total-right">
+                <span>合计:</span><span class="bigNum">0</span><span>元</span>
+                <a href="javascript:" class="total-right-a">去结算</a>
+            </div>
+        </div>
+        <div class="cart-recommend">
+            <h2 class="commend-title"><span>为您推荐</span></h2>
+            <div class="recommend-goods">
+                <ul class="recommend-list">
+                    <li class="recommend-item">
+                        <img src="img/recommend-goods.jpg" alt="">
+                        <a class="item-name" href="">红米6 全网通版 3GB内存 32GB </a>
+                        <span>799元</span>
+                        <span class="item-num">3453人好评</span>
+                        <div class="recommend-cart"><span>加入购物车</span></div>
+                    </li>
+                    <li class="recommend-item">
+                        <img src="img/recommend-goods.jpg" alt="">
+                        <a class="item-name" href="">红米6 全网通版 3GB内存 32GB </a>
+                        <span>799元</span>
+                        <span class="item-num">3453人好评</span>
+                        <div class="recommend-cart"><span>加入购物车</span></div>
+                    </li>
+                    <li class="recommend-item">
+                        <img src="img/recommend-goods.jpg" alt="">
+                        <a class="item-name" href="">红米6 全网通版 3GB内存 32GB </a>
+                        <span>799元</span>
+                        <span class="item-num">3453人好评</span>
+                        <div class="recommend-cart"><span>加入购物车</span></div>
+                    </li>
+                    <li class="recommend-item">
+                        <img src="img/recommend-goods.jpg" alt="">
+                        <a class="item-name" href="">红米6 全网通版 3GB内存 32GB </a>
+                        <span>799元</span>
+                        <span class="item-num">3453人好评</span>
+                        <div class="recommend-cart"><span>加入购物车</span></div>
+                    </li>
+                    <li class="recommend-item">
+                        <img src="img/recommend-goods.jpg" alt="">
+                        <a class="item-name" href="">红米6 全网通版 3GB内存 32GB </a>
+                        <span>799元</span>
+                        <span class="item-num">3453人好评</span>
+                        <div class="recommend-cart"><span>加入购物车</span></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="site-footer">
+    <div class="footer-content">
+        <ul class="footer-list">
+            <li class="footer-item"><i class="icon-wrench"></i><span>预约维修服务</span></li>
+            <li class="footer-item"><i class="icon-plane"></i><span>7天无理由退换</span></li>
+            <li class="footer-item"><i class="icon-fighter-jet"></i><span>15天免费退换</span></li>
+            <li class="footer-item"><i class="icon-suitcase"></i><span>满15元包邮</span></li>
+            <li class="footer-item" style="border: none"><i class="icon-map-marker"></i><span>520余家售后网点</span></li>
+        </ul>
+    </div>
+    <div class="footer-link">
+        <dl class="col-links">
+            <dt>帮助中心</dt>
+            <dd>账户管理</dd>
+            <dd>购物指南</dd>
+            <dd>订单操作</dd>
+        </dl>
+        <dl class="col-links">
+            <dt>帮助中心</dt>
+            <dd>账户管理</dd>
+            <dd>购物指南</dd>
+            <dd>订单操作</dd>
+        </dl>
+        <dl class="col-links">
+            <dt>服务支持</dt>
+            <dd>售后政策</dd>
+            <dd>自助服务</dd>
+            <dd>相关下载</dd>
+        </dl>
+        <dl class="col-links">
+            <dt>线下门店</dt>
+            <dd>服务网点</dd>
+            <dd>授权体验店</dd>
+        </dl>
+        <dl class="col-links">
+            <dt>关于小米</dt>
+            <dd>了解小米</dd>
+            <dd>加入小米</dd>
+        </dl>
+        <dl class="col-links" style="border-right: 1px dashed lightgrey;">
+            <dt>关注我们</dt>
+            <dd>新浪微博</dd>
+            <dd>官方微信</dd>
+            <dd>联系我们</dd>
+        </dl>
+        <div class="footer-contact">
+            <p class="contact-phone">400-100-5678</p>
+            <p class="contact-know">周一至周日 8:00-18:00
+                （仅收市话费）</p>
+            <a href=""><i class="icon-envelope-alt"></i>联系客服</a>
+        </div>
+    </div>
+    <div class="site-infro">
+        <div class="infro-logo"><img src="./img/logo.png" alt="" width=""></div>
+        <p class="logo-size">
+            <a href="">小米商城</a>
+            <span>|</span>
+            <a href="">MIUI</a>
+            <span>|</span>
+            <a href="">米家</a>
+            <span>|</span>
+            <a href="">米聊</a>
+            <span>|</span>
+            <a href="">多看</a>
+            <span>|</span>
+            <a href="">游戏</a>
+            <span>|</span>
+            <a href="">路由器</a>
+            <span>|</span>
+            <a href="">米粉卡</a>
+            <span>|</span>
+            <a href="">政企服务</a>
+            <span>|</span>
+            <a href="">小米天猫店</a>
+            <span>|</span>
+            <a href="">隐私政策</a>
+            <span>|</span>
+            <a href="">问题反馈</a>
+            <span>|</span>
+            <a href="">廉正举报</a>
+            <span>|</span>
+            <a href="">Select Region</a>
+        </p>
+        <p class="logo-complain">
+            <a href="">@mi.com</a>
+            <span>京ICP证110507</span>
+            <a href="">京ICP备10046444号</a>
+            <a href="">京公网安备11010802020134号</a>
+            <a href="">京网文[2017]1530-130号</a>
+            <a href="">(京)网域平台备字(2018)第00005号</a>
+            <a href="">互联网药品信息服务资格证(京)非经营性-2014-0090营业执照</a>
+            <span>违法和不良信息举报电话：185-0130-1238，本网站所列数据，除特殊说明，所有数据均出自我司实验室测试</span>
+        </p>
+        <div class="footer-img">
+            <img src="./img/footer-one.png" alt="">
+            <img src="./img/footer-two.png" alt="">
+            <img src="./img/footer-three.png" alt="">
+            <img src="./img/footer-four.png" alt="">
+        </div>
+        <div class="infro-last">探索新科技，小米为发烧而生</div>
+    </div>
+</div>
+<script src="js/jquery.js"></script>
+<script src="http://code.changer.hk/jquery/plugins/jquery.cookie.js"></script>
+<script src="js/cart-fun.js"></script>
+<script src="js/cart-server.js"></script>
+<script src="js/index-cart.js"></script>
+</body>
+</html>

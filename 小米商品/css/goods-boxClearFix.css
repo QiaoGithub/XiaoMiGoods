@@ -1,0 +1,268 @@
+.box-clearfix{
+    width:1519px;
+    height:804px;
+    position: relative;
+}
+.pro-choose-main{
+    height:800px;
+    position: relative;
+}
+.goods-img{
+    width:560px;
+    height:560px;
+    display: inline-block;
+    float: left;
+    margin-top:50px;
+}
+.list{
+    width:560px;
+    height:560px;
+    list-style: none;
+    position: relative;
+    margin:0;
+    padding: 0;
+}
+.item{
+    width:100%;
+    height:100%;
+    position: absolute;
+}
+.item.active{
+    z-index: 100;
+}
+.btn{
+    width:50px;
+    height:69px;
+    position: absolute;
+    top:200px;
+    z-index: 100000;
+    cursor: pointer;
+    border:0;
+    background-color: white;
+    transition: all .2s;
+}
+.btn i{
+    display: inline-block;
+    font-size: 50px;
+    color:lightgrey;
+}
+.btn:hover i{
+    color:white;
+}
+.btn:hover{
+    background-color: grey;
+}
+#goNext{
+    right:0;
+}
+#goPre{
+    left:0;
+}
+.mainWrap{
+    display: inline-block;
+    position: relative;
+}
+.pointList{
+    list-style: none;
+    position: absolute;
+    right:160px;
+    bottom:20px;
+    z-index: 100000;
+}
+.point{
+    float:left;
+    background-color: rgba(0,0,0,.8);
+    cursor: pointer;
+    width:50px;
+    height:3px;
+    margin-left:20px;
+    transition: all 1s;
+}
+.point:hover{
+    background-color: rgba(0,0,0,1);
+    transform: scale(1.1);
+}
+.point.active{
+    background-color: gray;
+}
+.pro-info{
+    width:606px;
+    height:760px;
+    float: left;
+    margin-left:30px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.pro-info-h1{
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: normal;
+    color: #212121;
+}
+.pro-info-explain{
+    color: #b0b0b0;
+    margin: 0;
+    padding-top: 8px;
+    font-size: 14px;
+}
+.pro-price{
+    display: block;
+    font-size: 18px;
+    line-height: 1;
+    color: #ff6700;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 12px 0 20px;
+}
+.user-address{
+    background: #fafafa;
+    border: 1px solid #e0e0e0;
+    padding: 30px 40px 30px 32px;
+}
+.icon-map-marker{
+    color:grey;
+}
+.address-info{
+    display: inline-block;
+    margin-left: 10px;
+}
+.address-item{
+    margin-right: 14px;
+}
+.choose-address{
+    line-height: 1;
+    color: #ff6700;
+    cursor: pointer;
+}
+.choose-title{
+    width:100%;
+    height:186px;
+    margin-top: 30px;
+}
+.list-title{
+    width:100%;
+    height:17px;
+    font-size: 18px;
+}
+.step-list{
+    margin-left: -6px;
+    list-style: none;
+}
+.step-item{
+    width:245px;
+    margin-left: 6px;
+    margin-top: 15px;
+    line-height: 42px;
+    height: 42px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    float: left;
+    padding: 5px 25px;
+}
+.item-a{
+    margin: 0 10px;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+}
+.choose{
+    border:1px solid #ff6700;
+    color: orangered;
+}
+.item-a img{
+    width:16px;
+    height:16px;
+    margin-right:5px;
+}
+.price-list{
+    background: #f9f9fa;
+    padding: 30px;
+    margin-bottom: 30px;
+    display: none;
+}
+.cart-item img{
+    width:16px;
+    height:16px;
+}
+.Block{
+    display: block;
+}
+.None{
+    display: none;
+}
+.price-list-title{
+    line-height: 30px;
+    color: #616161;
+    display: inline-block;
+}
+.price-list-num{
+    float: right;
+}
+.list-title-sum{
+    color: #ff6700;
+    font-size: 24px;
+    padding-top: 20px;
+}
+.buy-btn{
+    margin: 10px 0 20px 0;
+    width:606px;
+    height:56px;
+}
+.btn-inc{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    background: #ff6700;
+    border-color: #ff6700;
+    color: #fff;
+    width: 298px;
+    height: 52px;
+    line-height: 52px;
+    font-size: 16px;
+}
+.btn-like{
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    width: 140px;
+    height: 52px;
+    line-height: 52px;
+    border: 1px solid #b0b0b0;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+    font-size: 16px;
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    background: #b0b0b0;
+    margin-left:10px;
+}
+.btn-like:hover{
+    background-color: grey;
+}
+.pro-policy .pro-policy-a{
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    cursor: default;
+    white-space: nowrap;
+    color: #b0b0b0;
+    text-decoration: none;
+}
+.pro-policy-a span{
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    margin-right: 15px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    margin-left: 2px;
+    vertical-align: middle;
+}
+.pro-policy-a span i{
+    font-style: normal;
+    vertical-align: middle;
+}

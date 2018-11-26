@@ -1,0 +1,47 @@
+.nav-bar{
+    width:1519px;
+    height:63px;
+    box-shadow: 0 5px 4px rgba(0,0,0,0.18);
+}
+.nav-bar .container h2{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 60px;
+    color: #212121;
+    float: left;
+}
+.container-left{
+    float: left;
+    margin-left: 5px;
+    font-size: 12px;
+    margin-top: 21px;
+}
+.container-left span{
+    margin: 0 .25em;
+    color: #212121;
+}
+.container-left a{
+    color: #616161;
+    text-decoration: none;
+}
+.container-left a:hover{
+    color:orangered;
+}
+.container-right{
+    float: right;
+    display: inline;
+    margin: 17px 0 0 0;
+    font-size: 14px;
+}
+.container-right span{
+    margin: 0 .25em;
+    color: #e0e0e0;
+}
+.container-right a{
+    color: #616161;
+    text-decoration: none;
+}
+.container-right a:hover{
+    color:orangered;
+}
